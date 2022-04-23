@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+	
+<h1>Las galletas de mamá</h1>
+La siguiente es la fórmula secreta de las galletas de mi mamá. Rápida y muy económica para hacer en casa.
+<br>
+<br>
+
+<script>
+	function saltarLinea() {
+		document.write ("<br>");
+	}
+
+	function imprimir (frase) {
+		document.write(frase);
+	}
+
+var ingediente1= "harina de espelta";
+var ingrediente2= "huevos";
+var ingrediente3= "leche";
+var ingrediente4= "azucar morena o panela";
+var pesoIngrediente1= 500;
+var pesoIngrediente2= 80;
+var pesoIngrediente3= 100;
+var pesoIngrediente4= 20;
+var sumaIngredientes= (pesoIngrediente1+pesoIngrediente2+pesoIngrediente3+pesoIngrediente4);
+
+imprimir("<h2> Los ingredientes para las galletas son: </h2> " + ingediente1 + " , " + ingrediente2 + " , " + ingrediente3 + " y " + ingrediente4 );
+saltarLinea()
+saltarLinea()
+
+imprimir("La cantidad de " + ingediente1 + " es " + pesoIngrediente1 + " gramos ");
+saltarLinea()
+imprimir("La cantidad de " + ingrediente2 + " es " + pesoIngrediente2 + " gramos ");
+saltarLinea()
+imprimir("La cantidad de " + ingrediente3 + " es " + pesoIngrediente3 + " gramos ");
+saltarLinea()
+imprimir("Y por último, pese " + pesoIngrediente4 + " gramos " + " de " + ingrediente4);
+saltarLinea()
+saltarLinea()
+</script>
